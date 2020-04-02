@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Stepper Form</title>
+</head>
+<body>
+    <form class="stepper-form">
+        <div class="step current-step">
+            <div class="label-container">
+                <div class="step-label">1</div>
+                <label for="stepper-form-email" class="step-submit">Enter your email</label>
+            </div>
+            <div class="input-container">
+                <input type="email" name="stepper-form-email" class="stepper-form-input" placeholder="Email">
+                <button type="button" class="step-submit form-btn">Submit</button>
+            </div>
+        </div>
+        <div class="step">
+            <div class="label-container">
+                <div class="step-label">2</div>
+                <label for="stepper-form-password">Enter your password</label>
+            </div>
+            <div class="input-container">
+                <input type="password" name="stepper-form-password" class="stepper-form-input" placeholder="Password">
+                <button type="button" class="step-submit form-btn">Submit</button>
+            </div>
+        </div>
+        <div class="step">
+            <div class="label-container">
+                <div class="step-label">3</div>
+                <label for="stepper-form-email">Submit</label>
+            </div>
+            <div class="input-container">
+                <button type="submit" type="submit" class="form-submit form-btn">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src=index.js></script>
+</body>
+</html>
